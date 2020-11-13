@@ -1,10 +1,8 @@
-# Tudvari Brew-archive
+# Brew-archive
 
 ## How do I install these formulae?
-`brew install tudvari/brew-archive/<formula>`
 
-Or `brew tap tudvari/brew-archive` and then `brew install <formula>`.
+1. brew tap tudvari/brew-archive
+2. brew update
+3. brew cask install CASK_NAME
 
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
-=======
