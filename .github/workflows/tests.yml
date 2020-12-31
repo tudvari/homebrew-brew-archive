@@ -1,4 +1,4 @@
-name: brew test-bot
+name: brew tes
 on:
   push:
     branches: main
