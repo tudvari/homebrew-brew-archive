@@ -1,6 +1,6 @@
 # Brew-archive
 
-![status](https://github.com/tudvari/homebrew-brew-archive/workflows/brew%20test/badge.svg)
+![brew test](https://github.com/tudvari/homebrew-brew-archive/workflows/brew%20test/badge.svg)
 
 ## How do I install these formulae?
 
