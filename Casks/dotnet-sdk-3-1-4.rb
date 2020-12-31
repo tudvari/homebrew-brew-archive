@@ -1,4 +1,4 @@
-cask "dotnet-sdk-3.1.4" do
+cask "dotnet-sdk-3-1-4" do
   if MacOS.version <= :sierra
     version "2.2.402,7430e32b-092b-4448-add7-2dcf40a7016d:1076952734fbf775062b48344d1a1587"
     sha256 "e74d816bc034d0fcdfa847286a6cad097227d4864da1c97fe801012af0c26341"
