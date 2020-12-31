@@ -1,5 +1,7 @@
 # Brew-archive
 
+![status](https://github.com/tudvari/homebrew-brew-archive/workflows/brew%20test/badge.svg)
+
 ## How do I install these formulae?
 
 1. brew tap tudvari/brew-archive
