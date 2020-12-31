@@ -11,12 +11,14 @@ cask "dotnet-sdk@3.1.4" do
   appcast "https://www.microsoft.com/net/download/macos"
   name ".NET Core SDK"
   homepage "https://www.microsoft.com/net/core#macos"
+
   #
   # conflicts_with cask: [
   #  "dotnet",
   #  "dotnet-preview",
   #  "dotnet-sdk-preview",
   # ]
+  
   depends_on macos: ">= :sierra"
 
   pkg "dotnet-sdk-#{version.before_comma}-osx-x64.pkg"
