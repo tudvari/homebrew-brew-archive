@@ -8,7 +8,7 @@ cask "dotnet-sdk-3-1" do
     url "https://download.visualstudio.microsoft.com/download/pr/b4db3ee6-91da-4dd3-a279-37c45d9627b7/fad88a7335d374d6e4d53aef085f4b24/dotnet-sdk-3.1.403-osx-x64.pkg"
     # sha256 "6b4f384b8a724bab114e0685285a98003ed21227acfb3c6ff0dc083d981812fc"
   end
-  
+
   sha256 :no_check
 
   appcast "https://www.microsoft.com/net/download/macos"
