@@ -17,7 +17,7 @@ cask "dotnet-sdk-3-1" do
 
   depends_on macos: ">= :sierra"
 
-  pkg "dotnet-sdk-#{version.before_comma}-osx-x64.pkg"
+  pkg "dotnet-sdk-#{version.before_colon}-osx-x64.pkg"
   binary "/usr/local/share/dotnet/dotnet"
 
   uninstall pkgutil: [
