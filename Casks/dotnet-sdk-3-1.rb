@@ -4,7 +4,7 @@ cask "dotnet-sdk-3-1" do
 
   sha256 :no_check
 
-  url "https://download.visualstudio.microsoft.com/download/pr/dd9e2eb6-adf9-4da5-a058-c69118fca0f9/392150c11bf427c05560690db0572193/dotnet-sdk-#{version}-osx-x64.pkg"
+  url "https://download.visualstudio.microsoft.com/download/pr/2dc016eb-cb93-4bdf-98c0-ee8c84ad26c0/d1a7eb02814ac9e164cb0e23c24d5973/dotnet-sdk-3.1.416-osx-x64.pkg"
   appcast "https://www.microsoft.com/net/download/macos"
   name ".NET Core SDK"
   homepage "https://www.microsoft.com/net/core#macos"
