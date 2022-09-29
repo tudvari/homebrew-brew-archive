@@ -1,6 +1,9 @@
-# Brew-archive
+# Warning!
+This repo is depracted please use this one: https://github.com/tudvari/brew-registry
 
+# Brew-archive
 ![brew test](https://github.com/tudvari/homebrew-brew-archive/workflows/brew%20test/badge.svg)
+
 
 ## How do I install these formulae?
 
