@@ -4,14 +4,14 @@ cask "dotnet-sdk-3-1" do
 
   sha256 :no_check
 
-  url "https://download.visualstudio.microsoft.com/download/pr/895b7e35-b1c2-4d1d-8d7f-f82f4ae70eb7/9470e66ca28443328cbaa36963ff83f8/dotnet-sdk-{version}-osx-x64.tar.gz"
+  url "https://download.visualstudio.microsoft.com/download/pr/895b7e35-b1c2-4d1d-8d7f-f82f4ae70eb7/9470e66ca28443328cbaa36963ff83f8/dotnet-sdk-#{version}-osx-x64.tar.gz"
   appcast "https://www.microsoft.com/net/download/macos"
   name ".NET Core SDK"
   homepage "https://www.microsoft.com/net/core#macos"
 
   depends_on macos: ">= :sierra"
 
-  pkg "dotnet-sdk-{version}-osx-x64.tar.gz"
+  pkg "dotnet-sdk-#{version}-osx-x64.tar.gz"
   binary "/usr/local/share/dotnet/dotnet"
 
   uninstall pkgutil: [
